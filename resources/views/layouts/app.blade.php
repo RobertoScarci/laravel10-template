@@ -9,6 +9,12 @@
     
 </head>
 <body>
-    
+    @include('layouts.partials.header')
+
+        <main>
+            @yield('main-content')
+        </main>
+
+    @include('layouts.partials.footer')
 </body>
 </html>
